@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "phin-mcp",
+  "displayName": "Phin Data Workbench",
+  "version": "0.13.0",
+  "description": "Query your Phin database connections from inside Claude Code. Read-only by default; SELECT/find succeed, writes are refused.",
+  "author": { "name": "Phin AI", "url": "https://github.com/phin-ai" },
+  "homepage": "https://github.com/phin-ai/phin",
+  "keywords": ["database", "postgres", "mysql", "sqlite", "mongodb", "sql", "data"],
+  "mcpServers": {
+    "phin": {
+      "command": "/Applications/Phin.app/Contents/MacOS/phin-mcp",
+      "args": ["--stdio"]
+    }
+  }
+}

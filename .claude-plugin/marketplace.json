@@ -1,0 +1,18 @@
+{
+  "name": "phin-official",
+  "owner": {
+    "name": "Phin AI",
+    "url": "https://github.com/phin-ai"
+  },
+  "description": "Official Claude Code plugins for Phin — the AI-native data workbench.",
+  "plugins": [
+    {
+      "name": "phin-mcp",
+      "source": "./phin-mcp",
+      "description": "Query your Phin database connections (Postgres / MySQL / SQLite / MongoDB) from inside Claude Code. Read-only by default.",
+      "version": "0.13.0",
+      "author": { "name": "Phin AI" },
+      "keywords": ["database", "postgres", "mysql", "sqlite", "mongodb", "sql", "data"]
+    }
+  ]
+}
