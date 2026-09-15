@@ -10,7 +10,7 @@
       "name": "phin-mcp",
       "source": "./phin-mcp",
       "description": "Query your Phin database connections (Postgres / MySQL / SQLite / MongoDB) from inside Claude Code. Read-only by default.",
-      "version": "0.14.13",
+      "version": "0.14.14",
       "author": { "name": "Phin AI" },
       "keywords": ["database", "postgres", "mysql", "sqlite", "mongodb", "sql", "data"]
     }
